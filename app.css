@@ -1,0 +1,25 @@
+body {
+  overflow: hidden;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+}
+.container svg {
+  height: 70%;
+  width: 100%;
+}
+.container #hammerAnimation,
+.container #car {
+  opacity: 0;
+}
+
+#text {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
